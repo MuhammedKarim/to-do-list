@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(to right,#9BC6AD, #F2E2B1);
+}
+
+/* HEADER ~~~~~~~~~~~~~~~~~~~~ */
+
+header {
+    height: 10vh;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 2vh 1vw;
+}
+header .form {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+header .addTaskBtn {
+    width: 10%;
+    height: 100%;
+    box-sizing: border-box;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #85BB91;
+    border: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+header .addTaskBtn:hover {
+    cursor: pointer;
+}
+header input {
+    width: 90%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #85BB91;
+    font-size: 2rem;
+    padding-left: 1vw;
+    border: none;
+}
+
+
+/* MAIN ~~~~~~~~~~~~~~~~~~~ */
+
+main {
+    margin: 2vh 1vw;
+}
+main .tasksContainer {
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+main .tasksContainer:last-child {
+    margin-bottom: 0;
+}
+main i {
+    height: 100%;
+    padding: 0;
+}
+main .tasksDescriptionContainer {
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(to right,#D2D9AD, #C4D9AB);
+}
+main .tasksDescription {
+    font-size: 30px;
+    padding-left: 1vw;
+    padding-top: 3vh;
+}
+main button {
+    width: 10%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color:#D4D8A7;
+    border: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+main button:hover {
+    cursor: pointer;
+}
